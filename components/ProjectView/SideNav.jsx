@@ -38,7 +38,8 @@ const SideNav = () => {
               }`}
             >
               <div className="flex flex-col items-center mb-4 lg:mb-6 font-poppins">
-                <h1 className="mb-4 text-3xl font-semibold lg:mb-10 text-heroH lg:text-5xl"><span class="text-brand">Projects</span></h1>
+                <h1 className="mb-4 text-3xl font-semibold lg:mb-10 text-heroH lg:text-5xl">
+                  <span className="text-brand">Projects</span></h1>
               </div>
             </a>
           </Link>
