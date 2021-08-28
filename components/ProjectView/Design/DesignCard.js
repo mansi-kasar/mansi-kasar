@@ -3,15 +3,15 @@ import Link from "next/link";
 
 const DesignCard = (props) => {
   return (
-    <div className="flex flex-col justify-between max-w-4xl lg:gap-3 xl:gap-0 font-poppins lg:flex-row ">
-      <div className={`max-w-xs space-y-5 ` + props.textCont}>
+    <div className="flex flex-col justify-between max-w-8xl lg:gap-3 xl:gap-0 font-poppins lg:flex-row ">
+      <div className={`max-w-s space-y-5 ` + props.textCont}>
         <h1 className="text-xl font-medium text-exp lg:text-3xl">
           {props.title}
         </h1>
         <p className=" lg:text-lg text-expSec">{props.summary}</p>
         <Link
-          href={`/projects/uiux-designs/[id]`}
-          as={`/projects/uiux-designs/${props.id}`}
+          href={`/projects/designs/[id]`}
+          as={`/projects/designs/${props.id}`}
           passHref
         >
           <button className="px-4 py-3 text-white bg-brand rounded-3xl ">
@@ -23,8 +23,8 @@ const DesignCard = (props) => {
         <Image
           src={props.thumbnailSrc}
           alt={props.title}
-          width={720}
-          height={576}
+          width={500}
+          height={376}
           className="rounded-3xl"
           quality="100"
 

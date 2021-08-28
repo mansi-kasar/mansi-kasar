@@ -4,12 +4,12 @@ const AllProj = () => {
   const projectData = [
     {
       title: "UI/UX Case Studies",
-      projLink: "/projects/uiux-casestudies/",
+      projLink: "/projects/casestudies/",
       imgSrc: "/assets/all-projects/projectHome/2.png",
     },
     {
       title: "UI/UX Designs",
-      projLink: "/projects/uiux-designs/",
+      projLink: "/projects/designs/",
       imgSrc: "/assets/all-projects/projectHome/3.png",
     },
     {

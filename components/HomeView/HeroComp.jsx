@@ -25,7 +25,7 @@ const heroSection = () => {
         </p>
         <div className="flex mb-4 space-x-6">
           <Link href="mailto:mansikasar5@gmail.com">
-            <a className="flex items-center px-4 py-2 space-x-2 text-white rounded-lg bg-brand">
+            <a className="flex items-center px-4 py-2 space-x-2 border rounded-lg text-heroH border-brandOutline">
               <FaRegEnvelope className="text-xl" />
 
               <span className="text-sm font-bold lg:text-base">Mail Me</span>
@@ -36,11 +36,11 @@ const heroSection = () => {
               target="_blank"
               rel="noopener noreferrer"
               download
-              className="flex items-center px-4 py-2 space-x-2 border rounded-lg text-heroH border-brandOutline"
+              className="flex items-center px-4 py-2 space-x-2 text-white rounded-lg bg-brand"
             >
-              <FiDownload className="text-xl" />
+              {/* <FiDownload className="text-xl" /> */}
               <span className="text-sm font-bold lg:text-base ">
-                Download Resume
+                Resume
               </span>
             </a>
           </Link>

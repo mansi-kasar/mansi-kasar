@@ -1,49 +1,46 @@
+// import { CaseList } from "../../../components/data/Casestudies.data";
+import { CaseList } from "../../../components/data/Casestudies.data";
+
 import ProjectListLayout from "../../../components/Layout/ProjectListLayout";
 import Image from "next/image";
-import { uiuxDesignList } from "../../../components/data/uiuxDesign.data";
-
 export const getStaticProps = async ({ params }) => {
-  //put the uiuxDesignList as caseLists and filter out the id and makse sure its the parsm.id
-  const designLists = uiuxDesignList.filter(
-    (p) => p.id.toString() === params.id
-  );
+  //put the caselist as caseLists and filter out the id and makse sure its the parsm.id
+  const caseLists = CaseList.filter((p) => p.id.toString() === params.id);
 
   return {
     props: {
       //return the id which is the first index(0)
-      singleDesign: designLists[0],
+      singleCase: caseLists[0],
     },
     revalidate: 10,
   };
 };
 export const getStaticPaths = async () => {
-  const paths = uiuxDesignList.map((singleDesign) => ({
-    params: { id: singleDesign.id.toString() },
+  const paths = CaseList.map((singleCase) => ({
+    params: { id: singleCase.id.toString() },
   }));
   return { paths, fallback: false };
 };
 
-const Design = ({ singleDesign }) => {
-  console.log(singleDesign.title);
+const CaseStudy = ({ singleCase }) => {
   return (
     <ProjectListLayout>
       <h1 className="text-xl font-medium text-exp lg:text-3xl">
-        {singleDesign.title}
+        {singleCase.title}
       </h1>
-      <div className="max-h-full">
-        <Image
-          src={singleDesign.contentSrc}
-          alt="Picture of the author"
-          layout="responsive"
-          width={singleDesign.contentWidth}
-          height={singleDesign.contentHeight}
-          quality={100}
-        />
-      </div>
+
+      <Image
+        src={singleCase.contentSrc}
+        alt={singleCase.title}
+        layout="responsive"
+        width={singleCase.contentWidth}
+        height={singleCase.contentHeight}
+        quality={100}
+      />
       <div className=" aspect-w-16 aspect-h-16 md:aspect-h-14 lg:aspect-h-9">
         <iframe
           className="absolute inset-0 w-full h-full overflow-hidden"
-          src={singleDesign.videoUrl}
+          src={singleCase.videoUrl}
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -53,4 +50,4 @@ const Design = ({ singleDesign }) => {
   );
 };
 
-export default Design;
+export default CaseStudy;
