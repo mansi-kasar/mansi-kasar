@@ -9,7 +9,8 @@ const CaseStudies = ({ data }) => {
   return (
     <ProjectListLayout title="Case Studies">
       {/* <div className="flex flex-col items-center space-y-20 lg:flex-col lg:space-y-28"> */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-7 gap-y-12 md:gap-x-2 lg:gap-x-6 ">
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 gap-x-7 md:gap-x-2 lg:gap-x-6 "> */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 ">
         {data.map((items, index) => (
           <Card
             key={index}
