@@ -3,7 +3,7 @@ import Meta from "./Meta";
 
 const ProjectListLayout = (props) => {
   return (
-    <div className="p-4 xl:pl-36 xl:pr-36 lg:mt-4 lg:mb-12">
+    <div className="py-8 xl:pl-36 xl:pr-36 lg:mb-12 lg:p-4">
       <Meta title={props.title} />
       <div className="grid grid-cols-1 md:grid-cols-1 ">
         <div className="col-span-1 mb-10 lg:mb-0">
