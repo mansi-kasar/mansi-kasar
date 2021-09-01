@@ -23,7 +23,7 @@ const SideNav = () => {
     //   path: "/projects/coded-websites",
     // },
     {
-      name: "Logo & Graphics",
+      name: "Graphics",
       path: "/projects/logo-graphic-design",
     },
   ];
