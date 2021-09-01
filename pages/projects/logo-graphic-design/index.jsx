@@ -6,17 +6,55 @@ import { LogoFolio } from "../../../components/data/logofolio.data";
 const logoGraphicDesign = ({ data }) => {
   return (
     <LogoGraphicsLayout title="M K.|Logo & Graphic Design">
-        <div className="grid grid-cols-3 md:grid-cols-3 gap-x-6 gap-y-12 md:gap-x-7 lg:gap-x-12 mt-14">
-          <Image src="/assets/all-projects/LogoGraphicDesign/1.png" />
-          <Image src="/assets/all-projects/LogoGraphicDesign/2.png" />
-          <Image src="/assets/all-projects/LogoGraphicDesign/3.png" />
-          <Image src="/assets/all-projects/LogoGraphicDesign/4.png" />
-          <Image src="/assets/all-projects/LogoGraphicDesign/5.png" />
-          <Image src="/assets/all-projects/LogoGraphicDesign/6.png" />
-          <Image src="/assets/all-projects/LogoGraphicDesign/7.png" />
-          <Image src="/assets/all-projects/LogoGraphicDesign/8.png" />
-          <Image src="/assets/all-projects/LogoGraphicDesign/9.png" />
-          {/* {data.map((items, index) => (
+      <div className="grid grid-cols-3 md:grid-cols-3 gap-x-6 gap-y-12 md:gap-x-7 lg:gap-x-12 mt-14">
+        {/* <img
+          src="/assets/all-projects/LogoGraphicDesign/1.png"/> */}
+        <Image
+          src="/assets/all-projects/LogoGraphicDesign/1.png"
+          width="384"
+          height="384"
+        />
+        <Image
+          src="/assets/all-projects/LogoGraphicDesign/2.png"
+          width="384"
+          height="384"
+        />
+        <Image
+          src="/assets/all-projects/LogoGraphicDesign/3.png"
+          width="384"
+          height="384"
+        />
+        <Image
+          src="/assets/all-projects/LogoGraphicDesign/4.png"
+          width="384"
+          height="384"
+        />
+        <Image
+          src="/assets/all-projects/LogoGraphicDesign/5.png"
+          width="384"
+          height="384"
+        />
+        <Image
+          src="/assets/all-projects/LogoGraphicDesign/6.png"
+          width="384"
+          height="384"
+        />
+        <Image
+          src="/assets/all-projects/LogoGraphicDesign/7.png"
+          width="384"
+          height="384"
+        />
+        <Image
+          src="/assets/all-projects/LogoGraphicDesign/8.png"
+          width="384"
+          height="384"
+        />
+        <Image
+          src="/assets/all-projects/LogoGraphicDesign/9.png"
+          width="384"
+          height="384"
+        />
+        {/* {data.map((items, index) => (
           <Card
             key={index}
             title={items.title}
@@ -26,7 +64,7 @@ const logoGraphicDesign = ({ data }) => {
             buttonText="View Case Study"
           />
         ))} */}
-        </div>
+      </div>
     </LogoGraphicsLayout>
   );
 };
