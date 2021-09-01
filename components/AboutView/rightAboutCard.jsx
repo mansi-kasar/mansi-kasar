@@ -37,12 +37,12 @@ const aboutCard = () => {
       </div>
 
       <div className="grid grid-cols-1 justify-items-start">
-        {/* <Image
-          src={props.imgSrc}
+        <Image
+          src="/assets/about-me/2.jpeg"
           width="500"
           height="384"
           alt="Picture of dog"
-        /> */}
+        />
         {/* <Link href={props.projLink} passHref>
           <a>
             
