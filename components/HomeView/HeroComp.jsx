@@ -32,7 +32,7 @@ const heroSection = () => {
             <Link href="mailto:mansikasar5@gmail.com">
               <a className="flex items-center px-4 py-2 space-x-2 border text-heroH border-brandOutline">
                 <FaRegEnvelope className="text-xl" />
-                <span className="text-sm font-bold lg:text-base">Let&#39;s Talk</span>
+                <span className="text-sm font-bold lg:text-base font-poppins">Let&#39;s Talk</span>
               </a>
             </Link>
             <Link href="https://drive.google.com/file/d/1NAdepmWeKaHF7zovXGmKQL7OcMFIU8xN/view?usp=sharing">
@@ -43,7 +43,7 @@ const heroSection = () => {
                 className="flex items-center px-4 py-2 space-x-2 text-white bg-brand"
               >
                 {/* <FiDownload className="text-xl" /> */}
-                <span className="text-sm font-bold lg:text-base ">
+                <span className="text-sm font-bold lg:text-base font-poppins">
                   Resume
                 </span>
               </a>
