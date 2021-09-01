@@ -15,15 +15,15 @@ const SideNav = () => {
       path: "/projects/casestudies",
     },
     {
-      name: "Designs",
+      name: "Other Designs",
       path: "/projects/designs",
     },
+    // {
+    //   name: "Coded websites",
+    //   path: "/projects/coded-websites",
+    // },
     {
-      name: "Coded websites",
-      path: "/projects/coded-websites",
-    },
-    {
-      name: "Logo & Graphic Design ",
+      name: "Logo & Graphics",
       path: "/projects/logo-graphic-design",
     },
   ];
@@ -38,8 +38,8 @@ const SideNav = () => {
               }`}
             >
               <div className="flex flex-col items-center mb-4 lg:mb-6 font-poppins">
-                <h1 className="mb-4 text-3xl font-semibold lg:mb-10 text-heroH lg:text-5xl">
-                  <span className="text-brand">Projects</span></h1>
+                <h1 className="mb-4 text-3xl font-semibold lg:mb-10 text-heroH lg:text-5xl font-playfair">
+                  <span >Projects</span></h1>
               </div>
             </a>
           </Link>
@@ -83,14 +83,17 @@ const SideNav = () => {
 
       
       </div>
-      <div className="flex flex-wrap flex-col items-center mb-6 lg:mb-11 font-poppins">
+      <div 
+      // className="flex flex-wrap flex-col items-center mb-6 lg:mb-11 font-poppins"
+      className="flex flex-wrap flex-col items-center font-poppins"
+      >
       <div className="flex flex-wrap flex-row items-stretch">
           {sideNavItems.map((item, index) => (
             <Link key={index} href={item.path}>
               <a
                 className={`${
                   router.pathname.startsWith(item.path)
-                    ? "text-brand"
+                    ? "text-brand underline"
                     : "text-heroH "
                 } p-4`}
               >

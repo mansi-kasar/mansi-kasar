@@ -4,7 +4,7 @@ export const CaseList = [{
         id: 0,
         title: "noQ",
         summary: "Case study on a virtual slot booking application for college.",
-        contentSrc: "/assets/all-projects/uixCaseStudy/eachCaseStudy/1.png",
+        contentSrc: "/assets/all-projects/uixCaseStudy/eachCaseStudy/Frame 1.png",
         thumbnailSrc: "/assets/all-projects/uixCaseStudy/1.png",
         contentWidth: "3470",
         contentHeight: "32700",

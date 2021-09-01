@@ -1,13 +1,22 @@
 import Image from "next/image";
-import ProjectListLayout from "../../../components/Layout/ProjectListLayout";
+import LogoGraphicsLayout from "../../../components/Layout/LogoGraphicsLayout";
 import Card from "../../../components/Reusable Comp/logoFolioCard";
 import { LogoFolio } from "../../../components/data/logofolio.data";
 
 const logoGraphicDesign = ({ data }) => {
   return (
-    <ProjectListLayout title="M K.|Logo & Graphic Design">
-       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-7 gap-y-12 md:gap-x-2 lg:gap-x-6 ">
-        {data.map((items, index) => (
+    <LogoGraphicsLayout title="M K.|Logo & Graphic Design">
+        <div className="grid grid-cols-3 md:grid-cols-3 gap-x-6 gap-y-12 md:gap-x-7 lg:gap-x-12 mt-14">
+          <img src="/assets/all-projects/LogoGraphicDesign/1.png" />
+          <img src="/assets/all-projects/LogoGraphicDesign/2.png" />
+          <img src="/assets/all-projects/LogoGraphicDesign/3.png" />
+          <img src="/assets/all-projects/LogoGraphicDesign/4.png" />
+          <img src="/assets/all-projects/LogoGraphicDesign/5.png" />
+          <img src="/assets/all-projects/LogoGraphicDesign/6.png" />
+          <img src="/assets/all-projects/LogoGraphicDesign/7.png" />
+          <img src="/assets/all-projects/LogoGraphicDesign/8.png" />
+          <img src="/assets/all-projects/LogoGraphicDesign/9.png" />
+          {/* {data.map((items, index) => (
           <Card
             key={index}
             title={items.title}
@@ -16,20 +25,19 @@ const logoGraphicDesign = ({ data }) => {
             summary={items.summary}
             buttonText="View Case Study"
           />
-        ))}
-      </div>
-    </ProjectListLayout>
+        ))} */}
+        </div>
+    </LogoGraphicsLayout>
   );
 };
 
 export default logoGraphicDesign;
 
 export const getStaticProps = async (context) => {
-    return {
-      props: {
-        data: LogoFolio,
-      },
-      revalidate: 10,
-    };
+  return {
+    props: {
+      data: LogoFolio,
+    },
+    revalidate: 10,
   };
-  
+};
