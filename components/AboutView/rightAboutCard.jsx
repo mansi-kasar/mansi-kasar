@@ -17,7 +17,7 @@ const aboutCard = () => {
         </h1>
 
         <p className="subpixel-antialiased text-xs lg:text-lg font-poppins sm:text-xs md:text-sm w-9/12 text-right">
-          My goal is to be able to put myself in another's shoes and create&nbsp;
+          My goal is to be able to put myself in another&apos;s shoes and create&nbsp;
           <span className="text-white bg-brand">designs that elicit empathy</span>,
           allowing me to communicate the stories in a way that other
           stakeholders can understand. To use UX Design to bring people from all

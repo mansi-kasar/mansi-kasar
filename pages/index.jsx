@@ -1,7 +1,7 @@
 import HeroSection from "../components/HomeView/HeroComp";
 import RecentProj from "../components/HomeView/RecentProj";
-import IconsComp from "../components/HomeView/SkillsComp";
-import Companies from "../components/HomeView/companies";
+// import IconsComp from "../components/HomeView/SkillsComp";
+// import Companies from "../components/HomeView/companies";
 import Meta from "../components/Layout/Meta";
 const Home = () => {
   return (

@@ -1,6 +1,7 @@
 // card comp without view case study and live preview
 import Image from "next/image";
 import Link from "next/link";
+
 const aboutCard = () => {
   return (
     <div className="mt-14 grid grid-cols-2 md:grid-cols-2 gap-x-14 gap-y-7 md:gap-x-14 lg:gap-x-14 xl:gap-x-14 ">
@@ -36,7 +37,7 @@ const aboutCard = () => {
             An engineer who eloquently fell in love with designing.&nbsp;
           </span>
           To me, design is a notion that is essentially responsible for a
-          product's stature while also offering a sense of freedom and a
+          product&apos;s stature while also offering a sense of freedom and a
           distinct storyline for the same idea.
           <br />
           <br />
