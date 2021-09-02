@@ -37,7 +37,7 @@ const projectCard = (props) => {
                 // className="flex text-center items-center px-16 py-4 space-x-2 text-white bg-brand"
               >
                 {/* <FiDownload className="text-xl" /> */}
-                <span className="text-xs font-bold lg:text-base">
+                <span className="text-xs font-bold lg:text-base font-poppins">
                   View
                 </span>
               </a>

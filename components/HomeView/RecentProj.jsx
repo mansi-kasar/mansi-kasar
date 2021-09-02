@@ -64,7 +64,7 @@ const RecentProj = () => {
           ))}
         </div> */}
 
-      <div className="flex mt-16 md:mt-16 sm:mt-4 lg:mt-16 place-content-center  ">
+      <div className="flex mt-16 md:mt-16 sm:mt-4 lg:mt-16 place-content-center">
         <Link href="/projects/casestudies">
           <a className="flex text-center items-center px-16 py-4 space-x-2 border text-heroH border-brandOutline hover:text-brandOutline">
             {/* <a className="flex items-center px-4 py-2 space-x-2 border text-heroH border-brandOutline"> */}
