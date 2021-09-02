@@ -8,58 +8,58 @@ const logoGraphicDesign = ({ data }) => {
     <LogoGraphicsLayout title="M K.|Logo & Graphic Design">
       <div className="grid grid-cols-3 md:grid-cols-3 gap-x-6 gap-y-12 md:gap-x-7 lg:gap-x-12 mt-14">
         {/* <img
-          src="/assets/all-projects/LogoGraphicDesign/1.png"/> */}
+          src="https://mansikasar.s3.amazonaws.com/LogoGraphicDesign/1.png"/> */}
         <Image
-        className="aspect-h-16 aspect-w-16"
-          src="/assets/all-projects/LogoGraphicDesign/1.png"
+          // className="aspect-h-16 aspect-w-16"
+          src="https://mansikasar.s3.amazonaws.com/LogoGraphicDesign/1.png"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
-          src="/assets/all-projects/LogoGraphicDesign/2.png"
+          src="https://mansikasar.s3.amazonaws.com/LogoGraphicDesign/2.png"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
-          src="/assets/all-projects/LogoGraphicDesign/3.png"
+          src="https://mansikasar.s3.amazonaws.com/LogoGraphicDesign/3.png"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
-          src="/assets/all-projects/LogoGraphicDesign/4.png"
+          src="https://mansikasar.s3.amazonaws.com/LogoGraphicDesign/4.png"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
-          src="/assets/all-projects/LogoGraphicDesign/5.png"
+          src="https://mansikasar.s3.amazonaws.com/LogoGraphicDesign/5.png"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
-          src="/assets/all-projects/LogoGraphicDesign/6.png"
+          src="https://mansikasar.s3.amazonaws.com/LogoGraphicDesign/6.png"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
-          src="/assets/all-projects/LogoGraphicDesign/7.png"
+          src="https://mansikasar.s3.amazonaws.com/LogoGraphicDesign/7.png"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
-          src="/assets/all-projects/LogoGraphicDesign/8.png"
+          src="https://mansikasar.s3.amazonaws.com/LogoGraphicDesign/8.png"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
-          src="/assets/all-projects/LogoGraphicDesign/9.png"
+          src="https://mansikasar.s3.amazonaws.com/LogoGraphicDesign/9.png"
           layout="responsive"
           width="384"
           height="384"
