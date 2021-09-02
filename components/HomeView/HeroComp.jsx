@@ -22,7 +22,7 @@ const heroSection = () => {
         <div className="flex flex-col mt-18 mb-18 md:mt-36 md:mb-36 w-9/12 lg:w-5/12 md:w-5/12 sm:w-9/12 justify-center">
           {/* <p className="mt-4 mb-4 text-xl font-medium lg:text-2xl text-heroP lg:pt-20">
           </p> */}
-          <h1 className="px-4 mb-6 text-3xl font-playfair font-semibold space lg:text-5xl text-heroH text-center motion-safe:animate-fadeIn">
+          <h1 className="px-4 mb-6 text-3xl font-playfair font-semibold space lg:text-5xl text-heroH text-center">
             Hey! I&#39;m <span className="text-brand">Mansi Kasar</span>, <br />
             a UI/UX Designer.
           </h1>
@@ -31,7 +31,7 @@ const heroSection = () => {
           </p>
           <div className="flex mb-6 space-x-6 justify-center">
             <Link href="mailto:mansikasar5@gmail.com">
-              <a className="flex items-center px-4 py-2 space-x-2 border text-heroH border-brandOutline hover:bg-brand hover:text-white">
+              <a className="flex items-center px-4 py-2 space-x-2 border text-heroH border-brandOutline hover:text-brandOutline">
                 <FaRegEnvelope className="text-xl" />
                 <span className="text-sm font-bold lg:text-base font-poppins ">
                   Let&#39;s Talk
