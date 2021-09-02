@@ -49,13 +49,13 @@ const CaseStudy = ({ singleCase }) => {
         quality={100}
       /> */}
       <div className=" aspect-w-16 aspect-h-16 md:aspect-h-14 lg:aspect-h-9">
-        <iframe
+        {/* <iframe
           className="absolute inset-0 w-full h-full overflow-hidden"
           src={singleCase.videoUrl}
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
-        ></iframe>
+        ></iframe> */}
       </div>
     </ProjectListLayout>
   );
