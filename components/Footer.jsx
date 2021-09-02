@@ -9,7 +9,7 @@ const Footer = () => {
         {/* main grid */}
         <div className="grid grid-cols-1 gap-6 lg:gap-72 lg:grid-cols-3 ">
           <div className="flex flex-col">
-            <h1 className="mb-3 text-sm font-semibold text-white font-playfair ">
+            <h1 className="mb-3 text-lg font-semibold text-white font-playfair ">
               Mansi Kasar
             </h1>
             <div className="text-xs font-normal lg:text-sm font-poppins ">
@@ -75,7 +75,7 @@ const Footer = () => {
             <h1 className="mb-3 text-sm font-bold font-roboto"> Contact </h1>
             <Link href="mailto:mansikasar5@gmail.com">
               <a className="px-5 py-4 font-bold text-black bg-white w-28 text-xss font-poppins">
-                Mail me
+                Let&#39;s Talk
               </a>
             </Link>
           </div>

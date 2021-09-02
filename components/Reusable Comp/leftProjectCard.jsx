@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 const projectCard = (props) => {
   return (
-    <div className="mt-14 grid grid-cols-2 md:grid-cols-2 gap-x-14 gap-y-7 md:gap-x-14 lg:gap-x-14 xl:gap-x-14 ">
+    <div className="mt-14 grid grid-cols-2 md:grid-cols-2 gap-x-14 gap-y-7 md:gap-x-14 lg:gap-x-14 xl:gap-x-14 py-16 bg-gray-100">
 
       <div className="grid grid-cols-1 justify-items-end content-center">
         <Link href={props.projLink} passHref>
@@ -46,7 +46,7 @@ const projectCard = (props) => {
         <div className="flex mt-2 md:mt-4 lg:mt-16 sm:mt-2 w-24" >
           <Link href={props.projLink}>
               <a
-              className="flex items-center px-4 py-2 space-x-2 lg:px-16 md:py-4 lg:px-16 md:py-4 text-white bg-brand"
+              className="flex items-center px-4 py-2 space-x-2 lg:px-16 md:py-4 lg:px-16 md:py-4 text-white bg-brand hover:bg-purple-500"
                 // className="flex text-center items-center px-16 py-4 space-x-2 text-white bg-brand"
               >
                 {/* <FiDownload className="text-xl" /> */}

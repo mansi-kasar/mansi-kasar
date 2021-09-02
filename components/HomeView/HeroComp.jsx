@@ -13,26 +13,29 @@ import { FiDownload } from "react-icons/fi";
 const heroSection = () => {
   return (
     <div>
-      <div className="flex flex-col px-4 py-14 lg:flex-row lg:p-0 justify-center items-center lg:mt-19 bg-hero-pattern"
-      // style={{backgroundImage: "url('/assets/bgimage.png')"}}
+      <div
+        className="flex flex-col px-4 py-14 lg:flex-row lg:p-0 justify-center items-center lg:mt-19 bg-hero-pattern "
+        // style={{backgroundImage: "url('/assets/bgimage.png')"}}
       >
         {/* left */}
         {/* <div className="px-4 pt-2 font-poppins lg:pt-0 xl:w-2/6 lg:w-2/5"> */}
         <div className="flex flex-col mt-18 mb-18 md:mt-36 md:mb-36 w-9/12 lg:w-5/12 md:w-5/12 sm:w-9/12 justify-center">
           {/* <p className="mt-4 mb-4 text-xl font-medium lg:text-2xl text-heroP lg:pt-20">
           </p> */}
-          <h1 className="px-4 mb-6 text-3xl font-playfair font-semibold space lg:text-5xl text-heroH text-center">
-          Hey! I&#39;m <span className="text-brand">Mansi Kasar</span>, <br/>a UI/UX
-            Designer.
+          <h1 className="px-4 mb-6 text-3xl font-playfair font-semibold space lg:text-5xl text-heroH text-center motion-safe:animate-fadeIn">
+            Hey! I&#39;m <span className="text-brand">Mansi Kasar</span>, <br />
+            a UI/UX Designer.
           </h1>
           <p className="mb-6 text-base font-normal text-heroH lg:mb-4 lg:text-lg text-center font-poppins">
-          Focused on creating beautiful user experiences through Design.
+            Focused on creating beautiful user experiences through Design.
           </p>
           <div className="flex mb-6 space-x-6 justify-center">
             <Link href="mailto:mansikasar5@gmail.com">
-              <a className="flex items-center px-4 py-2 space-x-2 border text-heroH border-brandOutline">
+              <a className="flex items-center px-4 py-2 space-x-2 border text-heroH border-brandOutline hover:bg-brand hover:text-white">
                 <FaRegEnvelope className="text-xl" />
-                <span className="text-sm font-bold lg:text-base font-poppins">Let&#39;s Talk</span>
+                <span className="text-sm font-bold lg:text-base font-poppins ">
+                  Let&#39;s Talk
+                </span>
               </a>
             </Link>
             <Link href="https://drive.google.com/file/d/1NAdepmWeKaHF7zovXGmKQL7OcMFIU8xN/view?usp=sharing">
@@ -40,7 +43,7 @@ const heroSection = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 download
-                className="flex items-center px-4 py-2 space-x-2 text-white bg-brand"
+                className="flex items-center px-4 py-2 space-x-2 text-white bg-brand hover:bg-purple-500"
               >
                 {/* <FiDownload className="text-xl" /> */}
                 <span className="text-sm font-bold lg:text-base font-poppins">
@@ -104,15 +107,15 @@ const heroSection = () => {
           </div>
         </div> */}
       </div>
-            <div className="flex justify-center pt-4">
-              <Image
-              height="80"
-              width="80"
-              src="/assets/arrow.gif"
-              />
-            </div>
+      <div className="flex justify-center pt-4 ">
+        <Image
+          className="cursor-pointer"
+          height="80"
+          width="80"
+          src="/assets/arrow.gif"
+        />
+      </div>
     </div>
-    
   );
 };
 

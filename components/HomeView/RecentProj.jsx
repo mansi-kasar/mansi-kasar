@@ -43,17 +43,16 @@ const RecentProj = () => {
     },
   ];
   return (
-      <div className="p-4 mt-16 mb-10 lg:mt-32 items-center">
-        <div className="flex flex-col items-center mb-10 lg:h-16 lg:mb-16 ">
-          <h1 className="text-4xl font-semibold font-poppins lg:text-5xl font-playfair">
-            Case Studies
-          </h1>
-
-        </div>
-        <LeftCard {...projectData[0]} />
-        <RightCard {...projectData[1]} />
-        <LeftCard {...projectData[2]} />
-        {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-x-7 gap-y-7 md:gap-x-2 lg:gap-x-3 xl:gap-x-1 ">
+    <div className="p-4 mt-16 mb-10 lg:mt-32 items-center">
+      <div className="flex flex-col items-center mb-10 lg:h-16 lg:mb-16 ">
+        <h1 className="text-4xl font-semibold font-poppins lg:text-5xl font-playfair">
+          Case Studies
+        </h1>
+      </div>
+      <LeftCard {...projectData[0]} />
+      <RightCard {...projectData[1]} />
+      <LeftCard {...projectData[2]} />
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-x-7 gap-y-7 md:gap-x-2 lg:gap-x-3 xl:gap-x-1 ">
           {projectData.map((proj, index) => (
             <Card
               key={index}
@@ -65,19 +64,18 @@ const RecentProj = () => {
           ))}
         </div> */}
 
-        <div className="flex mt-16 md:mt-16 sm:mt-4 lg:mt-16 place-content-center  ">
-          <Link href="/projects/casestudies">
-            <a
-              className="flex text-center items-center px-16 py-4 space-x-2 border text-heroH border-brandOutline"
-            >
-
+      <div className="flex mt-16 md:mt-16 sm:mt-4 lg:mt-16 place-content-center  ">
+        <Link href="/projects/casestudies">
+          <a className="flex text-center items-center px-16 py-4 space-x-2 border text-heroH border-brandOutline hover:bg-brand hover:text-white">
             {/* <a className="flex items-center px-4 py-2 space-x-2 border text-heroH border-brandOutline"> */}
-              {/* <FiDownload className="text-xl" /> */}
-              <span className="text-sm font-bold lg:text-base ">View more projects</span>
-            </a>
-          </Link>
-        </div>
+            {/* <FiDownload className="text-xl" /> */}
+            <span className="text-sm font-bold lg:text-base ">
+              View more projects
+            </span>
+          </a>
+        </Link>
       </div>
+    </div>
   );
 };
 

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 const projectCard = (props) => {
   return (
-    <div className="mt-14 grid grid-cols-2 md:grid-cols-2 gap-x-14 gap-y-7 md:gap-x-14 lg:gap-x-14 xl:gap-x-14 place-content-center justify-center">
+    <div className="mt-14 grid grid-cols-2 md:grid-cols-2 gap-x-14 gap-y-7 md:gap-x-14 lg:gap-x-14 xl:gap-x-14 place-content-center justify-center pt-1 pb-1 ">
 
 
       <div className="grid grid-cols-1 place-content-center justify-items-end">
@@ -33,11 +33,11 @@ const projectCard = (props) => {
                 // target="_blank"
                 // rel="noopener noreferrer"
                 // download
-                className="flex items-end px-4 py-2 space-x-2 lg:px-16 md:py-4 lg:px-16 md:py-4 text-white bg-brand"
+                className="flex items-end px-4 py-2 space-x-2 lg:px-16 md:py-4 lg:px-16 md:py-4 text-white bg-brand hover:bg-purple-500"
                 // className="flex text-center items-center px-16 py-4 space-x-2 text-white bg-brand"
               >
                 {/* <FiDownload className="text-xl" /> */}
-                <span className="text-xs font-bold lg:text-base ">
+                <span className="text-xs font-bold lg:text-base">
                   View
                 </span>
               </a>
