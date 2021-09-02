@@ -10,47 +10,57 @@ const logoGraphicDesign = ({ data }) => {
         {/* <img
           src="/assets/all-projects/LogoGraphicDesign/1.png"/> */}
         <Image
+        className="aspect-h-16 aspect-w-16"
           src="/assets/all-projects/LogoGraphicDesign/1.png"
+          layout="responsive"
           width="384"
           height="384"
         />
         <Image
           src="/assets/all-projects/LogoGraphicDesign/2.png"
+          layout="responsive"
           width="384"
           height="384"
         />
         <Image
           src="/assets/all-projects/LogoGraphicDesign/3.png"
+          layout="responsive"
           width="384"
           height="384"
         />
         <Image
           src="/assets/all-projects/LogoGraphicDesign/4.png"
+          layout="responsive"
           width="384"
           height="384"
         />
         <Image
           src="/assets/all-projects/LogoGraphicDesign/5.png"
+          layout="responsive"
           width="384"
           height="384"
         />
         <Image
           src="/assets/all-projects/LogoGraphicDesign/6.png"
+          layout="responsive"
           width="384"
           height="384"
         />
         <Image
           src="/assets/all-projects/LogoGraphicDesign/7.png"
+          layout="responsive"
           width="384"
           height="384"
         />
         <Image
           src="/assets/all-projects/LogoGraphicDesign/8.png"
+          layout="responsive"
           width="384"
           height="384"
         />
         <Image
           src="/assets/all-projects/LogoGraphicDesign/9.png"
+          layout="responsive"
           width="384"
           height="384"
         />
