@@ -6,7 +6,7 @@ export const CaseList = [{
         summary: "Case study on a virtual slot booking application for college.",
         contentSrc: "https://mansikasar.s3.amazonaws.com/b2b+case+study/b2bpng.png",
         contentImages: [
-            "https://mansikasar.s3.amazonaws.com/b2b+case+study/b2bpng.png",
+            "/assets/all-projects/uixCaseStudy/eachCaseStudy/b2bpng.png",
             // "https://mansikasar.s3.amazonaws.com/b2b+case+study/Frame+33.png",
             // "https://mansikasar.s3.amazonaws.com/b2b+case+study/Frame+34.png",
             // "https://mansikasar.s3.amazonaws.com/b2b+case+study/Frame+35.png",
