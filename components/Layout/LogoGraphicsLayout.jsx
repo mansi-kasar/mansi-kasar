@@ -15,7 +15,7 @@ const LogoGraphicsLayout = (props) => {
           </div>
 
           <div className="flex flex-col items-center mb-4 lg:mb-6 font-poppins">
-            <h1 className="mt-10 text-3xl font-semibold text-heroH lg:text-5xl font-playfair">
+            <h1 className="mt-16 text-3xl font-semibold text-heroH lg:text-5xl font-playfair">
               <span>Other Contributions</span>
             </h1>
           </div>
