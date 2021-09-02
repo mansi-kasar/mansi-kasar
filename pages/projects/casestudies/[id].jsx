@@ -29,14 +29,25 @@ const CaseStudy = ({ singleCase }) => {
         {singleCase.title}
       </h1>
 
-      <Image
+      {singleCase.contentImages.map((imageSrc, index) => (
+        <Image
+          key={index}
+          src={imageSrc}
+          alt={singleCase.title}
+          layout="responsive"
+          width={singleCase.contentWidth}
+          height={singleCase.contentHeight}
+          quality={100}
+        />
+      ))}
+      {/* <Image
         src={singleCase.contentSrc}
         alt={singleCase.title}
         layout="responsive"
         width={singleCase.contentWidth}
         height={singleCase.contentHeight}
         quality={100}
-      />
+      /> */}
       <div className=" aspect-w-16 aspect-h-16 md:aspect-h-14 lg:aspect-h-9">
         <iframe
           className="absolute inset-0 w-full h-full overflow-hidden"
