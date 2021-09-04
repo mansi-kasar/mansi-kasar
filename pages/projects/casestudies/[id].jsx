@@ -31,6 +31,7 @@ const CaseStudy = ({ singleCase }) => {
 
       {singleCase.contentImages.map((imageSrc, index) => (
         <Image
+          loading="priority"
           key={index}
           src={imageSrc}
           alt={singleCase.title}
