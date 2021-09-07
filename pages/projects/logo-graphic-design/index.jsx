@@ -10,6 +10,7 @@ const logoGraphicDesign = ({ data }) => {
         {/* <img
           src="https://mansikasar.s3.amazonaws.com/LogoGraphicDesign/1.png"/> */}
         <Image
+          loading="priority"
           // className="aspect-h-16 aspect-w-16"
           src="https://mansikasar.s3.amazonaws.com/LogoGraphicDesign/1.png"
           layout="responsive"
@@ -17,48 +18,56 @@ const logoGraphicDesign = ({ data }) => {
           height="384"
         />
         <Image
+          loading="priority"
           src="https://mansikasar.s3.amazonaws.com/LogoGraphicDesign/2.png"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
+          loading="priority"
           src="https://mansikasar.s3.amazonaws.com/LogoGraphicDesign/3.png"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
+          loading="priority"
           src="https://mansikasar.s3.amazonaws.com/LogoGraphicDesign/4.png"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
+          loading="priority"
           src="https://mansikasar.s3.amazonaws.com/LogoGraphicDesign/5.png"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
+          loading="priority"
           src="https://mansikasar.s3.amazonaws.com/LogoGraphicDesign/6.png"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
+          loading="priority"
           src="https://mansikasar.s3.amazonaws.com/LogoGraphicDesign/7.png"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
+          loading="priority"
           src="https://mansikasar.s3.amazonaws.com/LogoGraphicDesign/8.png"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
+          loading="priority"
           src="https://mansikasar.s3.amazonaws.com/LogoGraphicDesign/9.png"
           layout="responsive"
           width="384"
