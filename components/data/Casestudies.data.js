@@ -2,7 +2,7 @@
 //thumbnailsrc= thumbnail for uiux case study index page
 export const CaseList = [{
         id: 0,
-        title: "noQ",
+        title: "B2B Souq.ae",
         summary: "Case study on a virtual slot booking application for college.",
         contentSrc: "https://mansikasar.s3.amazonaws.com/b2b+case+study/b2bpng.png",
         contentImages: [
