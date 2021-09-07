@@ -41,7 +41,7 @@ const CaseStudies = ({ data }) => {
       cta: "View",
       category: "UX Design, Collaboration",
       caseLink: "/projects/uiux-casestudies/0",
-      projLink: "/projects/casestudies/1",
+      projLink: "/projects/casestudies/2",
       liveLink:
         "https://www.behance.net/gallery/124166733/Case-Study-noQ-Virtual-Slot-booking-avoid-crowd",
       imgSrc: "/assets/all-projects/uixCaseStudy/2.png",
