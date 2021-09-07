@@ -47,7 +47,7 @@ export const CaseList = [{
         id: 2,
         title: "proj.co",
         summary: "Case study on a project collaboration website.",
-        contentImages: ["/assets/all-projects/uixCaseStudy/eachCaseStudy/3.png"],
+        contentImages: ["/assets/all-projects/uixCaseStudy/eachCaseStudy/2.png"],
         contentSrc: "/assets/all-projects/uixCaseStudy/eachCaseStudy/2.png",
         thumbnailSrc: "/assets/all-projects/uixCaseStudy/2.png",
         videoUrl: "https://www.youtube.com/embed/6uc3PLBlEe0",
