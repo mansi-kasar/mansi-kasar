@@ -2,46 +2,50 @@ import Link from "next/link";
 import Card from "../Reusable Comp/Card";
 import RightCard from "../Reusable Comp/rightProjectCard";
 import LeftCard from "../Reusable Comp/leftProjectCard";
+import { projectData } from "../data/projectData.data";
+
 
 const RecentProj = () => {
-  const projectData = [
-    {
-      title: "B2BSouq Case Study",
-      content:
-        "Redesigned a Dubai-based business buying and selling platform to enhance the website's architecture and give it a more modern look.",
-      cta: "View",
-      category: "UX Design, Re-Design",
-      caseLink: "/projects/casestudies/0",
-      liveLink:
-        " https://www.behance.net/gallery/124166733/Case-Study-noQ-Virtual-Slot-booking-avoid-crowd",
-      projLink: "/projects/casestudies/0",
-      imgSrc: "/assets/all-projects/uixCaseStudy/0.png",
-    },
-    {
-      title: "VES noQ Case Study",
-      content:
-        "A virtual slot-booking app to help students on campus, especially during submission season when the college's print shop is a chaos.",
-      cta: "View",
-      category: "App, UX Design",
-      caseLink: "/projects/uiux-casestudies/0",
-      projLink: "/projects/casestudies/1",
-      liveLink:
-        "https://www.behance.net/gallery/124166733/Case-Study-noQ-Virtual-Slot-booking-avoid-crowd",
-      imgSrc: "/assets/all-projects/uixCaseStudy/1.png",
-    },
-    {
-      title: "Proj.co Case Study",
-      content:
-        "Proj.co is a social media-like online marketplace where people can find, save, and engage in collaborative projects.",
-      cta: "View",
-      category: "UX Design, Collaboration",
-      caseLink: "/projects/uiux-casestudies/0",
-      projLink: "/projects/casestudies/2",
-      liveLink:
-        "https://www.behance.net/gallery/124166733/Case-Study-noQ-Virtual-Slot-booking-avoid-crowd",
-      imgSrc: "/assets/all-projects/uixCaseStudy/2.png",
-    },
-  ];
+
+  // const projectData = [
+  //   {
+  //     title: "B2BSouq Case Study",
+  //     content:
+  //       "Redesigned a Dubai-based business buying and selling platform to enhance the website's architecture and give it a more modern look.",
+  //     cta: "View",
+  //     category: "UX Design, Re-Design",
+  //     caseLink: "/projects/casestudies/0",
+  //     liveLink:
+  //       " https://www.behance.net/gallery/124166733/Case-Study-noQ-Virtual-Slot-booking-avoid-crowd",
+  //     projLink: "/projects/casestudies/0",
+  //     imgSrc: "/assets/all-projects/uixCaseStudy/0.png",
+  //   },
+  //   {
+  //     title: "VES noQ Case Study",
+  //     content:
+  //       "A virtual slot-booking app to help students on campus, especially during submission season when the college's print shop is a chaos.",
+  //     cta: "View",
+  //     category: "App, UX Design",
+  //     caseLink: "/projects/uiux-casestudies/0",
+  //     projLink: "/projects/casestudies/1",
+  //     liveLink:
+  //       "https://www.behance.net/gallery/124166733/Case-Study-noQ-Virtual-Slot-booking-avoid-crowd",
+  //     imgSrc: "/assets/all-projects/uixCaseStudy/1.png",
+  //   },
+  //   {
+  //     title: "Proj.co Case Study",
+  //     content:
+  //       "Proj.co is a social media-like online marketplace where people can find, save, and engage in collaborative projects.",
+  //     cta: "View",
+  //     category: "UX Design, Collaboration",
+  //     caseLink: "/projects/uiux-casestudies/0",
+  //     projLink: "/projects/casestudies/2",
+  //     liveLink:
+  //       "https://www.behance.net/gallery/124166733/Case-Study-noQ-Virtual-Slot-booking-avoid-crowd",
+  //     imgSrc: "/assets/all-projects/uixCaseStudy/2.png",
+  //   },
+  // ];
+
   return (
     <div className="p-4 mt-16 mb-10 lg:mt-32 items-center">
       <div className="flex flex-col items-center mb-10 lg:h-16 lg:mb-16 ">

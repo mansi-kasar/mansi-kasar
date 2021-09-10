@@ -26,7 +26,7 @@ export const getStaticPaths = async () => {
 const Design = ({ singleDesign }) => {
   console.log(singleDesign.title);
   return (
-    <ProjectListLayout>
+    <ProjectListLayout title={singleDesign.title}>
       <h1 className="text-xl font-medium text-exp lg:text-3xl">
         {singleDesign.title}
       </h1>
