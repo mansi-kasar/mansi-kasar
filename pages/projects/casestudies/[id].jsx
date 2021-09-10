@@ -62,7 +62,7 @@ const CaseStudy = ({ singleCase }) => {
         ></iframe> */}
         </div>
 
-        <h1 className="text-xl font-medium text-exp lg:text-3xl mb-4">
+        <h1 className="text-xl font-lightbold text-exp lg:text-3xl mb-4 font-poppins">
         Check out my other projects
         </h1>
         <div className="grid grid-cols-2 gap-x-40">

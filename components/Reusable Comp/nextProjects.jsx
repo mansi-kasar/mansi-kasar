@@ -2,13 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 const NextProject = (props) => {
   return (
-    <div className="flex flex-col  space-y-3 max-w-card font-poppins">
+    <div className="flex flex-col space-y-3 max-w-card font-poppins">
       <div className="mt-8">
         <Image
           loading="priority"
           src={props.imgSrc}
-          width={720}
-          height={576}
+          width={640}
+          height={506}
           quality="100"
           layout="responsive"
           objectFit="cover"
