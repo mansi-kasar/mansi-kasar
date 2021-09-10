@@ -5,7 +5,7 @@ const NextProject = (props) => {
     <div className="flex flex-col  space-y-3 max-w-card font-poppins">
       <div className="mt-8">
         <Image
-          // loading="priority"
+          loading="priority"
           src={props.imgSrc}
           width={720}
           height={576}
