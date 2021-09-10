@@ -19,7 +19,7 @@ const NextProject = (props) => {
       <div className="mt-8">
       <Link href={props.projLink}>
         <a>
-          <h1 className="font-playfair text-4xl mt-8 font-lightbold">
+          <h1 className="font-playfair text-4xl mt-8 font-bold">
             {props.title}
           </h1>
         </a>
