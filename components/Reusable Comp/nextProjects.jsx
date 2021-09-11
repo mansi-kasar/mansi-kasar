@@ -7,11 +7,11 @@ const NextProject = (props) => {
         <Image
           loading="priority"
           src={props.imgSrc}
-          width={720}
-          height={576}
+          width={400}
+          height={336}
           quality="100"
-          layout="responsive"
-        //   objectFit="cover"
+        //   layout="responsive"
+          objectFit="cover"
           alt={props.title}
           className="object-left"
         />
