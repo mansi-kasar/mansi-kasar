@@ -2,21 +2,20 @@ import Image from "next/image";
 import Link from "next/link";
 const NextProject = (props) => {
   return (
-    <div className="flex flex-col space-y-3 max-w-card font-poppins">
-      <div className="mt-8">
+    <div className="flex flex-col space-y-3 max-w-card font-poppins justify-between">
+      <div className="grid mt-8 justify-items-center">
         <Image
           loading="priority"
           src={props.imgSrc}
           width={400}
           height={336}
           quality="100"
-        //   layout="responsive"
           objectFit="cover"
           alt={props.title}
           className="object-left"
         />
       </div>
-      <div className="mt-8">
+      <div className="grid mt-8 justify-items-center">
       <Link href={props.projLink}>
         <a>
           <h1 className="font-playfair text-4xl mt-8 font-bold">
