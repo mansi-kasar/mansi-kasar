@@ -54,7 +54,9 @@ const CaseStudy = ({ singleCase }) => {
           allowFullScreen
         ></iframe>
         </div> */}
-        <h1 className="text-xl font-lightbold text-exp lg:text-2xl mb-4 font-poppins mx-12">
+        <hr/>
+
+        <h1 className="text-xl font-lightbold text-exp lg:text-2xl mb-4 font-poppins mx-12 mt-16">
           Check out my other projects
         </h1>
         <div className="grid grid-cols-2">
