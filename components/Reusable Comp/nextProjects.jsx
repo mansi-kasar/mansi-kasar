@@ -1,29 +1,39 @@
 import Image from "next/image";
 import Link from "next/link";
 const NextProject = (props) => {
+
+  const getAlignment = (type) => {
+    switch (type) {
+      // case "Not Started":
+      // return "bg-gray-100 text-gray-500";
+      case 0:
+        return "start";
+      case 1:
+        return "end";
+    }
+  };
+
   return (
     <div className="flex flex-col space-y-3 max-w-card font-poppins justify-between">
-      <div className="grid mt-8 justify-items-center">
+      <div className={`grid mt-8 justify-items-center`}>
         <Image
           loading="priority"
           src={props.imgSrc}
-          width={400}
-          height={336}
+          width={450}
+          height={356}
           quality="100"
           objectFit="cover"
           alt={props.title}
           className="object-left"
         />
       </div>
-      <div className="grid mt-8 justify-items-center">
+      <div className={`grid mt-8 justify-items-center`}>
       <Link href={props.projLink}>
         <a>
-          <h1 className="font-playfair text-4xl mt-8 font-bold">
+          <h1 className="font-playfair text-3xl mt-8 font-bold">
             {props.title}
           </h1>
         </a>
-        {/* <h1 className="text-lg font-semibold text-card md:text-2xl ">
-        </h1> */}
       </Link>
     </div>
     </div>

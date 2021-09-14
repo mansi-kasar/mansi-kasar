@@ -3,6 +3,9 @@ module.exports = {
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
+            gridTemplateColumns: {
+                '16': 'repeat(16, minmax(0, 1fr))',
+            },
             animation: {
                 fadeIn: "fadeIn 2s ease-in forwards",
             },

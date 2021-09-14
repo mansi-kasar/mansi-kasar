@@ -54,13 +54,12 @@ const CaseStudy = ({ singleCase }) => {
           allowFullScreen
         ></iframe>
         </div> */}
-
-        <h1 className="text-xl font-lightbold text-exp lg:text-3xl mb-4 font-poppins">
-        Check out my other projects
+        <h1 className="text-xl font-lightbold text-exp lg:text-3xl mb-4 font-poppins mx-12">
+          Check out my other projects
         </h1>
-        <div className="grid grid-cols-2 gap-x-40">
+        <div className="grid grid-cols-2">
           {singleCase.next.map((data, index) => (
-            <NextProject key={index} {...projectData[data]} />
+            <NextProject key={index} {...projectData[data]} align={index} />
           ))}
         </div>
       </ProjectListLayout>
