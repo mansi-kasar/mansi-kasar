@@ -54,7 +54,7 @@ const CaseStudy = ({ singleCase }) => {
           allowFullScreen
         ></iframe>
         </div> */}
-        <hr/>
+        <hr className="border-t-2 border-gray-900 mt-16"/>
 
         <h1 className="text-xl font-lightbold text-exp lg:text-2xl mb-4 font-poppins mx-12 mt-16">
           Check out my other projects
