@@ -42,7 +42,7 @@ const CaseStudy = ({ singleCase }) => {
             // layout="intrinsic"
             width={singleCase.contentWidth}
             height={singleCase.contentHeight}
-            quality={100}
+            // quality={100}
           />
         ))}
 
