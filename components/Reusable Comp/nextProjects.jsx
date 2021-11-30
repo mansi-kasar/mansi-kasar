@@ -18,6 +18,7 @@ const NextProject = (props) => {
       <div className={`grid mt-8 justify-items-center`}>
         <Image
           loading="priority"
+          // loading="eager"
           src={props.imgSrc}
           width={450}
           height={356}

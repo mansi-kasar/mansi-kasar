@@ -4,9 +4,7 @@ import { DesignList } from "../../../components/data/Design.data";
 
 export const getStaticProps = async ({ params }) => {
   //put the DesignList as caseLists and filter out the id and makse sure its the parsm.id
-  const designLists = DesignList.filter(
-    (p) => p.id.toString() === params.id
-  );
+  const designLists = DesignList.filter((p) => p.id.toString() === params.id);
 
   return {
     props: {
@@ -32,12 +30,13 @@ const Design = ({ singleDesign }) => {
       </h1>
       <div className="max-h-full">
         <Image
+          loading="priority"
           src={singleDesign.contentSrc}
           alt="Picture of the author"
           layout="responsive"
           width={singleDesign.contentWidth}
           height={singleDesign.contentHeight}
-          quality={100}
+          // quality={100}
         />
       </div>
       <div className=" aspect-w-16 aspect-h-16 md:aspect-h-14 lg:aspect-h-9">
