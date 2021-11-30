@@ -40,8 +40,8 @@ const CaseStudy = ({ singleCase }) => {
             src={imageSrc}
             alt={singleCase.title}
             layout="responsive"
-            width={singleCase.contentWidth}
-            height={singleCase.contentHeight}
+            // width={singleCase.contentWidth}
+            // height={singleCase.contentHeight}
             // quality={100}
           />
         ))}
