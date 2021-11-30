@@ -39,7 +39,7 @@ const CaseStudy = ({ singleCase }) => {
             key={index}
             src={imageSrc}
             alt={singleCase.title}
-            // layout="intrinsic"
+            layout="intrinsic"
             width={singleCase.contentWidth}
             height={singleCase.contentHeight}
             quality={100}
