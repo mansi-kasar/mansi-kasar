@@ -30,14 +30,4 @@ export const projectData = [{
         imgSrc: "/assets/all-projects/uixCaseStudy/2.png",
         next: [0, 1]
     },
-    {
-        title: "Proj.co Case Study",
-        content: "Proj.co is a social media-like online marketplace where people can find, save, and engage in collaborative projects.",
-        cta: "View",
-        category: "UX Design, Collaboration",
-        projLink: "/projects/casestudies/2",
-        liveLink: "https://www.behance.net/gallery/124166733/Case-Study-noQ-Virtual-Slot-booking-avoid-crowd",
-        imgSrc: "/assets/all-projects/uixCaseStudy/3.png",
-        next: [0, 1]
-    },
 ];
