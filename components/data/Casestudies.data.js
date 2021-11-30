@@ -29,7 +29,7 @@ export const CaseList = [{
             // "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke/21.png",
             // "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke/22.png",
             // "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke/23.png",
-            "https: //mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke/bespoke+long.png",
+            "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke/bespoke+long.png",
         ],
         thumbnailSrc: "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke/bespoke+thumbnail.png",
         contentWidth: "450",
