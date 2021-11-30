@@ -56,14 +56,6 @@ const CaseStudy = ({ singleCase }) => {
         </div> */}
         <hr className="border-t-2 border-gray-900 mt-16" />
 
-        <h1 className="text-xl font-lightbold text-exp lg:text-2xl mb-4 font-poppins mx-12 mt-16">
-          Check out my other projects
-        </h1>
-        <div className="grid grid-cols-2">
-          {singleCase.next.map((data, index) => (
-            <NextProject key={index} {...projectData[data]} align={index} />
-          ))}
-        </div>
         {singleCase.videoUrl ? (
           <div className=" aspect-w-16 aspect-h-16 md:aspect-h-14 lg:aspect-h-9">
             <iframe
@@ -77,6 +69,17 @@ const CaseStudy = ({ singleCase }) => {
         ) : (
           <></>
         )}
+
+        <hr className="border-t-2 border-gray-900 mt-16" />
+
+        <h1 className="text-xl font-lightbold text-exp lg:text-2xl mb-4 font-poppins mx-12 mt-16">
+          Check out my other projects
+        </h1>
+        <div className="grid grid-cols-2">
+          {singleCase.next.map((data, index) => (
+            <NextProject key={index} {...projectData[data]} align={index} />
+          ))}
+        </div>
       </ProjectListLayout>
     </>
   );
