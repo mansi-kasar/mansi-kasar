@@ -7,7 +7,7 @@ const aboutCard = () => {
     <div className="mt-14 grid grid-cols-2 md:grid-cols-2 gap-x-14 gap-y-7 md:gap-x-14 lg:gap-x-14 xl:gap-x-14 ">
       <div className="grid grid-cols-1 justify-items-end">
         <Image
-          src="/assets/about-me/1.jpg"
+          src="https://mansikasar-website.s3.ap-south-1.amazonaws.com/about+me+photo/about+me+photo.jpeg"
           width={500}
           height={384}
           quality="100"
