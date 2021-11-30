@@ -30,7 +30,6 @@ export const CaseList = [{
             "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke/22.png",
             "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke/23.png",
         ],
-
         thumbnailSrc: "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke/bespoke+thumbnail.png",
         contentWidth: "250",
         contentHeight: "250",

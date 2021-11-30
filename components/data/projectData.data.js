@@ -15,7 +15,7 @@ export const projectData = [{
         content: "Redesigned a Dubai-based business buying and selling platform to enhance the website's architecture and give it a more modern look.",
         cta: "View",
         category: "UX Design, Re-Design",
-        projLink: "/projects/casestudies/0",
+        projLink: "/projects/casestudies/1",
         liveLink: " https://www.behance.net/gallery/124166733/Case-Study-noQ-Virtual-Slot-booking-avoid-crowd",
         imgSrc: "/assets/all-projects/uixCaseStudy/1.png",
         next: [0, 2]
@@ -25,7 +25,7 @@ export const projectData = [{
         content: "A virtual slot-booking app to help students on campus, especially during submission season when the college's print shop is a chaos.",
         cta: "View",
         category: "App, UX Design",
-        projLink: "/projects/casestudies/1",
+        projLink: "/projects/casestudies/2",
         liveLink: "https://www.behance.net/gallery/124166733/Case-Study-noQ-Virtual-Slot-booking-avoid-crowd",
         imgSrc: "/assets/all-projects/uixCaseStudy/2.png",
         next: [0, 1]
