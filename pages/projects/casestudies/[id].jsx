@@ -35,11 +35,11 @@ const CaseStudy = ({ singleCase }) => {
         {singleCase.contentImages.map((imageSrc, index) => (
           <Image
             loading="priority"
-            // loading="eager"
+            // loading="lazy"
             key={index}
             src={imageSrc}
             alt={singleCase.title}
-            // layout="intrinsic"
+            layout="responsive"
             width={singleCase.contentWidth}
             height={singleCase.contentHeight}
             // quality={100}
