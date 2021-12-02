@@ -35,7 +35,7 @@ export const CaseList = [{
             // "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke/bespoke+long.png",
         ],
         thumbnailSrc: "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke/bespoke+thumbnail.png",
-        contentWidth: "600",
+        contentWidth: "400",
         contentHeight: "200",
         // contentWidth: "3470",
         // contentHeight: "32700",
