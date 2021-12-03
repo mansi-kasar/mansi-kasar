@@ -14,8 +14,8 @@ const Designs = ({ dataDesign }) => {
         <LeftCard {...DesignData[0]} />
         <RightCard {...DesignData[1]} />
         <LeftCard {...DesignData[2]} />
-        <RightCard {...DesignData[3]} />
-        <LeftCard {...DesignData[4]} />
+        {/* <RightCard {...DesignData[3]} />
+        <LeftCard {...DesignData[4]} /> */}
 
         {/* <div className="flex mt-16 md:mt-16 sm:mt-4 lg:mt-16 place-content-center  ">
       <Link href="/projects/casestudies">
