@@ -17,6 +17,7 @@ export const getStaticProps = async ({ params }) => {
     revalidate: 10,
   };
 };
+
 export const getStaticPaths = async () => {
   const paths = CaseList.map((singleCase) => ({
     params: { id: singleCase.id.toString() },
