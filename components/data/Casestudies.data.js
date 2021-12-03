@@ -42,7 +42,7 @@ export const CaseList = [{
         thumbnailWidth: "2645",
         thumbnailHeight: "2116",
         videoUrl: "https://www.youtube.com/embed/jQGWS_wuYQE",
-        next: [0, 2],
+        next: [1, 2],
     },
     {
         id: 1,
@@ -73,7 +73,7 @@ export const CaseList = [{
         thumbnailWidth: "2645",
         thumbnailHeight: "2116",
         videoUrl: "https://www.youtube.com/embed/_yRBLKb0JtA",
-        next: [1, 2],
+        next: [0, 2],
     },
     {
         id: 2,
@@ -109,6 +109,6 @@ export const CaseList = [{
         // contentWidth: "3470",
         // contentHeight: "32700",
         videoUrl: null,
-        next: [0, 2],
+        next: [0, 1],
     },
 ];
