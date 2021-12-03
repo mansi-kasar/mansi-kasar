@@ -5,6 +5,7 @@ export const CaseList = [{
         title: "Bespoke",
         summary: "A website that offers a large selection of fashion items, all of which are tailored to the user's height and other body measurements.",
         contentSrc: "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke/bespoke+thumbnail.png",
+        "liveLink": "https://app.b2bsouq.ae/login",
         contentImages: [
             "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke%20new/0.png",
             "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke%20new/1.png",
