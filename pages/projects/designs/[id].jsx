@@ -34,8 +34,8 @@ const Design = ({ singleDesign }) => {
           src={singleDesign.contentSrc}
           alt="Picture of the author"
           layout="responsive"
-          // width={singleDesign.contentWidth}
-          // height={singleDesign.contentHeight}
+          width={singleDesign.contentWidth}
+          height={singleDesign.contentHeight}
           // quality={100}
         />
       </div>
