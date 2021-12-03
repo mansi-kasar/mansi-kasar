@@ -56,18 +56,21 @@ const CaseStudy = ({ singleCase }) => {
           allowFullScreen
         ></iframe>
         </div> */}
-        <hr className="border-t-2 border-gray-900 mt-16" />
 
         {singleCase.videoUrl ? (
-          <div className=" aspect-w-16 aspect-h-16 md:aspect-h-14 lg:aspect-h-9">
-            <iframe
-              className="absolute inset-0 w-full h-full overflow-hidden"
-              src={singleCase.videoUrl}
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
+          <>
+            <hr className="border-t-2 border-gray-900 mt-16" />
+
+            <div className=" aspect-w-16 aspect-h-16 md:aspect-h-14 lg:aspect-h-9">
+              <iframe
+                className="absolute inset-0 w-full h-full overflow-hidden"
+                src={singleCase.videoUrl}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </>
         ) : (
           <></>
         )}
