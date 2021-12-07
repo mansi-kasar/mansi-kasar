@@ -5,7 +5,6 @@ export const CaseList = [{
         title: "Bespoke",
         summary: "A website that offers a large selection of fashion items, all of which are tailored to the user's height and other body measurements.",
         contentSrc: "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke/bespoke+thumbnail.png",
-        "liveLink": "https://app.b2bsouq.ae/login",
         contentImages: [
             "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke%20new/0.png",
             "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke%20new/1.png",
@@ -24,8 +23,8 @@ export const CaseList = [{
             "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke%20new/14.png",
             "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke%20new/15.png",
             "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke%20new/16.png",
-            // "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke%20new/17.png",
-            // "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke%20new/18.png",
+            "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke%20new/17.png",
+            "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke%20new/18.png",
             // "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke%20new/19.png",
             "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke%20new/20.png",
             "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke%20new/21.png",
@@ -49,6 +48,7 @@ export const CaseList = [{
         id: 1,
         title: "B2B Souq.ae",
         summary: "Case study on a virtual slot booking application for college.",
+        "liveLink": "https://app.b2bsouq.ae/login",
         contentSrc: "https://mansikasar-website.s3.ap-south-1.amazonaws.com/b2b/b2bpng.png",
         contentImages: [
             "https://mansikasar-website.s3.ap-south-1.amazonaws.com/b2b%20new/1.png",
@@ -73,7 +73,7 @@ export const CaseList = [{
         // contentHeight: "32700",
         thumbnailWidth: "2645",
         thumbnailHeight: "2116",
-        videoUrl: "https://www.youtube.com/embed/_yRBLKb0JtA",
+        videoUrl: null,
         next: [0, 2],
     },
     {
@@ -109,7 +109,7 @@ export const CaseList = [{
         contentHeight: "250",
         // contentWidth: "3470",
         // contentHeight: "32700",
-        videoUrl: null,
+        videoUrl: "https://www.youtube.com/embed/_yRBLKb0JtA",
         next: [0, 1],
     },
 ];
