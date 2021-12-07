@@ -33,8 +33,8 @@ const CaseStudy = ({ singleCase }) => {
           {singleCase.title}
         </h1>
 
-        {singleCase.liveLink ? <h1 className="text-lg font-medium text-exp lg:text-xl">
-          The new re-designed website: <a href={`https://${singleCase.liveLink}`}>{singleCase.liveLink}</a>
+        {singleCase.liveLink ? <h1 className="text-lg font-normal text-exp lg:text-xl">
+          The new re-designed website: <a className="font-medium font-poppins underline text-blue-600" href={`https://${singleCase.liveLink}`}>{singleCase.liveLink}</a>
         </h1>:<></>}
 
         {singleCase.contentImages.map((imageSrc, index) => (
