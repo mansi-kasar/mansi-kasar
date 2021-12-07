@@ -48,7 +48,7 @@ export const CaseList = [{
         id: 1,
         title: "B2B Souq.ae",
         summary: "Case study on a virtual slot booking application for college.",
-        "liveLink": "https://app.b2bsouq.ae/login",
+        "liveLink": "app.b2bsouq.ae/login",
         contentSrc: "https://mansikasar-website.s3.ap-south-1.amazonaws.com/b2b/b2bpng.png",
         contentImages: [
             "https://mansikasar-website.s3.ap-south-1.amazonaws.com/b2b%20new/1.png",
