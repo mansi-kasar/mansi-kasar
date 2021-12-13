@@ -19,9 +19,9 @@ const bottomCTA = () => {
 
       <Link href="/projects/casestudies">
         <a
-          target="_blank"
-          rel="noopener noreferrer"
-          download
+          // target="_blank"
+          // rel="noopener noreferrer"
+          // download
           className="flex items-center px-4 py-2 space-x-2 text-white bg-brand"
         >
           {/* <FiDownload className="text-xl" /> */}
