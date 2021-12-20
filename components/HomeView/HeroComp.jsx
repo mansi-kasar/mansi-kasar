@@ -24,7 +24,7 @@ const heroSection = () => {
           </p> */}
           <h1 className="px-4 mb-6 text-3xl font-playfair font-semibold space lg:text-5xl text-heroH text-center">
             Hey! I&#39;m <span className="text-brand">Mansi Kasar</span>, <br />
-            a UI/UX Designer.
+            a UX/UI Designer.
           </h1>
           <p className="mb-6 text-base font-normal text-heroH lg:mb-4 lg:text-lg text-center font-poppins">
             Focused on creating beautiful user experiences through Design.
