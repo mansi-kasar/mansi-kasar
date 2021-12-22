@@ -24,25 +24,22 @@ const projectCard = (props) => {
 
         <div
           className="flex mt-2 md:mt-4 lg:mt-16 sm:mt-2"
-          // className="flex mt-16 md:mt-8 sm:mt-2"
         >
           <Link
             href={props.projLink}
-            // className="flex items-end px-4 py-2 space-x-2 lg:px-16 md:py-4 lg:px-16 md:py-4 text-white bg-brand hover:bg-purple-500"
           >
-            <a className="flex items-end px-4 py-2 space-x-2 lg:px-16 md:py-4 lg:px-16 md:py-4 text-white bg-brand hover:bg-purple-500">
+            <span className="flex items-end px-4 py-2 space-x-2 lg:px-16 md:py-4 lg:px-16 md:py-4 text-white bg-brand hover:bg-purple-500 cursor-pointer">
               {/* <FiDownload className="text-xl" /> */}
               <span className="text-xs font-bold lg:text-base font-poppins">
                 View
               </span>
-            </a>
+            </span>
           </Link>
         </div>
       </div>
 
       <div className="grid grid-cols-1 justify-items-start content-center font-poppins">
         <Link href={props.projLink} passHref>
-          <a>
             <Image
               src={props.imgSrc}
               width="500"
@@ -53,7 +50,6 @@ const projectCard = (props) => {
               alt="Picture of dog"
               // className="object-left"
             />
-          </a>
         </Link>
       </div>
     </div>

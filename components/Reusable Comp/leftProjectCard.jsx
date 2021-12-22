@@ -45,15 +45,15 @@ const projectCard = (props) => {
 
         <div className="flex mt-2 md:mt-4 lg:mt-16 sm:mt-2 w-24" >
           <Link href={props.projLink}>
-              <a
-              className="flex items-center px-4 py-2 space-x-2 lg:px-16 md:py-4 lg:px-16 md:py-4 text-white bg-brand hover:bg-purple-500"
+              <span
+              className="flex items-center px-4 py-2 space-x-2 lg:px-16 md:py-4 lg:px-16 md:py-4 text-white bg-brand hover:bg-purple-500 cursor-pointer"
                 // className="flex text-center items-center px-16 py-4 space-x-2 text-white bg-brand"
               >
                 {/* <FiDownload className="text-xl" /> */}
                 <span className="text-xs font-bold lg:text-base font-poppins">
                   View
                 </span>
-              </a>
+              </span>
             </Link>
         </div>
 
