@@ -17,7 +17,7 @@ export const projectData = [{
         category: "UX Design, Re-Design",
         projLink: "/projects/casestudies/1",
         liveLink: " https://www.behance.net/gallery/124166733/Case-Study-noQ-Virtual-Slot-booking-avoid-crowd",
-        imgSrc: "https://mansikasar-website.s3.ap-south-1.amazonaws.com/b2b/b2b+thumbnail.png",
+        imgSrc: "https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/b2b/b2b+thumbnail.png",
         next: [0, 2]
     },
     {
@@ -27,7 +27,7 @@ export const projectData = [{
         category: "App, UX Design",
         projLink: "/projects/casestudies/2",
         liveLink: "https://www.behance.net/gallery/124166733/Case-Study-noQ-Virtual-Slot-booking-avoid-crowd",
-        imgSrc: "https://mansikasar-website.s3.ap-south-1.amazonaws.com/noQ/noq+thumbnail.png",
+        imgSrc: "https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/noQ/noq+thumbnail.png",
         next: [0, 1]
     },
 ];
