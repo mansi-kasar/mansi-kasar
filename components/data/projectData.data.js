@@ -7,7 +7,7 @@ export const projectData = [{
         category: "UX Design, Website",
         projLink: "/projects/casestudies/0",
         liveLink: " https://www.behance.net/gallery/124166733/Case-Study-noQ-Virtual-Slot-booking-avoid-crowd",
-        imgSrc: "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke/bespoke+thumbnail.png",
+        imgSrc: "https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/bespoke%2Bthumbnail.png",
         next: [1, 2]
     },
     {
