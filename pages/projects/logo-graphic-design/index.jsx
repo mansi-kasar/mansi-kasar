@@ -8,67 +8,67 @@ const logoGraphicDesign = ({ data }) => {
     <LogoGraphicsLayout title="M K.|Logo & Graphic Design">
       <div className="grid grid-cols-3 md:grid-cols-3 gap-x-6 gap-y-12 md:gap-x-7 lg:gap-x-12 mt-14">
         {/* <img
-          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/LogoGraphicDesign/1.png"/> */}
+          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/graphics/1.png"/> */}
         <Image
           loading="priority"
           // className="aspect-h-16 aspect-w-16"
-          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/LogoGraphicDesign/1.png"
+          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/graphics/1.png"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
           loading="priority"
-          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/LogoGraphicDesign/2.png"
+          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/graphics/2.png"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
           loading="priority"
-          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/LogoGraphicDesign/3.png"
+          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/graphics/3.png"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
           loading="priority"
-          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/LogoGraphicDesign/4.png"
+          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/graphics/4.png"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
           loading="priority"
-          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/LogoGraphicDesign/5.png"
+          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/graphics/5.png"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
           loading="priority"
-          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/LogoGraphicDesign/6.png"
+          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/graphics/6.png"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
           loading="priority"
-          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/LogoGraphicDesign/7.png"
+          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/graphics/7.png"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
           loading="priority"
-          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/LogoGraphicDesign/8.png"
+          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/graphics/8.png"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
           loading="priority"
-          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/LogoGraphicDesign/9.png"
+          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/graphics/9.png"
           layout="responsive"
           width="384"
           height="384"
