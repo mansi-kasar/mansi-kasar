@@ -6,8 +6,8 @@ export const CaseList = [{
         summary: "A website that offers a large selection of fashion items, all of which are tailored to the user's height and other body measurements.",
         contentSrc: "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke/bespoke+thumbnail.png",
         contentImages: [
-            "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke%20new/0.png",
-            "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke%20new/1.png",
+            "https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/0.png",
+            "https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/1.png",
             "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke%20new/2.png",
             "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke%20new/3.png",
             "https://mansikasar-website.s3.ap-south-1.amazonaws.com/bespoke%20new/4.png",
