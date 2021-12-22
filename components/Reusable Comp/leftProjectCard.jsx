@@ -7,7 +7,7 @@ const projectCard = (props) => {
 
       <div className="grid grid-cols-1 justify-items-end content-center">
         <Link href={props.projLink} passHref>
-          <a>
+          {/* <Link> */}
             <Image
               src={props.imgSrc}
               width={500}
@@ -24,7 +24,7 @@ const projectCard = (props) => {
               alt="Picture of dog"
               // className="object-left"
             />
-          </a>
+          {/* </Link> */}
         </Link>
       </div>
 
