@@ -7,7 +7,7 @@ const projectCard = (props) => {
 
       <div className="grid grid-cols-1 justify-items-end content-center">
         <Link href={props.projLink} passHref>
-          <a>
+          {/* <a> */}
             <Image
               src={props.imgSrc}
               width={500}
@@ -24,18 +24,18 @@ const projectCard = (props) => {
               alt="Picture of dog"
               // className="object-left"
             />
-          </a>
+          {/* </a> */}
         </Link>
       </div>
 
       <div className="grid grid-cols-1 place-content-center">
         <h1 className="subpixel-antialiased text-xs lg:text-xl text-card md:text-sm mb-3 sm:text-xs font-poppins">
-          <a>{props.category}</a>
+          <span>{props.category}</span>
         </h1>
 
         <h1 className="subpixel-antialiased text-sm mb-2 lg:mb-14 md:mb-8 sm:mb-2 lg:text-4xl font-playfair font-bold text-card md:text-2xl sm:text-sm">
           <Link href={props.projLink} passHref>
-            <a>{props.title}</a>
+            <span>{props.title}</span>
           </Link>
         </h1>
 
