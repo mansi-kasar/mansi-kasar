@@ -38,7 +38,7 @@ const aboutCard = () => {
 
       <div className="grid grid-cols-1 justify-items-start">
         <Image
-          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/about+me+photo/about+me+photo+2+(below+one).jpeg"
+          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/about%20me%20photo/about%20me%20photo%202%20(below%20one).jpeg"
           width="500"
           height="384"
           alt="Picture of dog"
