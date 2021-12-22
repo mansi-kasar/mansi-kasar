@@ -54,21 +54,21 @@ const logoGraphicDesign = ({ data }) => {
         />
         <Image
           loading="priority"
-          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/graphics/7.png"
+          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/graphics/7.jpg"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
           loading="priority"
-          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/graphics/8.png"
+          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/graphics/8.jpg"
           layout="responsive"
           width="384"
           height="384"
         />
         <Image
           loading="priority"
-          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/graphics/9.png"
+          src="https://cdn.jsdelivr.net/gh/devildani/mansi-kasar-resources@main/graphics/9.jpg"
           layout="responsive"
           width="384"
           height="384"
