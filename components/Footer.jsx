@@ -16,7 +16,7 @@ const Footer = () => {
               <p className=""> UI / UX Designer </p>
             </div>
             <div className="mt-4">
-              <Link href="https://drive.google.com/file/d/1lKhVBicL9IAH0Xwr6x_5Y6k7UgLMHvAL/view?usp=sharing">
+              <Link href="https://drive.google.com/file/d/1Ktk7mGMvH_1S4CH53JLByzOdJuuHTWCb/view?usp=sharing">
                 <a className="px-5 py-4 font-bold text-black bg-white w-28 text-xss font-poppins">
                   Download Resume
                 </a>
