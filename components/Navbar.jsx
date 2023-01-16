@@ -96,7 +96,7 @@ const Navbar = () => {
                 </a>
               </Link> */}
 
-            <Link href="https://drive.google.com/file/d/1Ktk7mGMvH_1S4CH53JLByzOdJuuHTWCb/view?usp=sharing">
+            <Link href="https://drive.google.com/file/d/111RX7Q51a5gnVT80Zu6thiyeC6GpJ1Ai/view?usp=sharing">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
